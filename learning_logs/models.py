@@ -18,3 +18,4 @@ class Entry(models.Model):
         verbose_name_plural='entries'
     def __str__(self):
          return f"{self.text[:50]}..."
+# 这是一个 Git 测试改动
